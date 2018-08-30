@@ -104,6 +104,9 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 
 ```properties
 spring.jpa.properties.hibernate.hbm2ddl.auto=create-drop
+#添加方言
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+
 ```
 
 spring.jpa.properties.hibernate.hbm2ddl.auto是hibernate的配置属性，其主要作用是：自动创建、更新、验证数据库表结构。该参数的几种配置如下：

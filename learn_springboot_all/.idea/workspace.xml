@@ -14,26 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn_springboot_3/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="717">
-                <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-                <folding>
-                  <marker date="1535598555243" expanded="true" signature="311:432" ph="..." />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/entity/User.java">
+      <file leaf-file-name="PersonController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/controller/PersonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="192">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -42,8 +27,66 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn_springboot_3/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="568">
+              <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonPo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/domain/PersonPo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding>
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/test/java/com/example/demo/dao/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrudRepository.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -66,6 +109,7 @@
       <find>static</find>
       <find>key :</find>
       <find>UserPo</find>
+      <find>Long</find>
     </findStrings>
     <replaceStrings>
       <replace>PersonPo</replace>
@@ -113,12 +157,14 @@
         <option value="$PROJECT_DIR$/learn_springboot_1/pom.xml" />
         <option value="$PROJECT_DIR$/learn_springboot_1/src/main/java/com/example/learn_springboot_more/timer/SchedledTask.java" />
         <option value="$PROJECT_DIR$/learn_springboot_1/src/main/java/com/example/learn_springboot_more/timer/QuartzConfigration.java" />
-        <option value="$PROJECT_DIR$/learn_springboot_3/pom.xml" />
-        <option value="$PROJECT_DIR$/learn_springboot_3/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/service/UserService.java" />
         <option value="$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/learn_springboot_3/src/test/java/com/example/demo/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/learn_springboot_3/readme.md" />
+        <option value="$PROJECT_DIR$/learn_springboot_3/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/learn_springboot_3/src/test/java/com/example/demo/dao/UserTest.java" />
+        <option value="$PROJECT_DIR$/learn_springboot_3/pom.xml" />
         <option value="$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/entity/User.java" />
       </list>
     </option>
@@ -143,10 +189,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1924" />
-    <option name="height" value="1050" />
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -203,6 +248,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,8 +278,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
@@ -222,9 +290,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
@@ -256,16 +349,49 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_springboot_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_springboot_all" type="462c0819:PsiDirectoryNode" />
+              <item name="learn_springboot_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +399,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn_springboot_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -306,7 +432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.test">
+  <component name="RunManager" selected="JUnit.UserTest.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -347,43 +473,18 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="PersonControllerTest.testPersonController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.controller.*" />
+          <option name="PATTERN" value="com.example.demo.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="learn_springboot_2" />
+      <module name="learn_springboot_3" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.demo.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controller.PersonControllerTest" />
-      <option name="METHOD_NAME" value="testPersonController" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserPoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.domian.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="learn_springboot_2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.demo.domian" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.domian.UserPoTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.service.UserServiceTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -397,18 +498,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.service.*" />
+          <option name="PATTERN" value="com.example.demo.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="learn_springboot_3" />
+      <module name="demo (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.demo.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.service.UserServiceTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.dao.UserTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -453,6 +554,17 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.LearnSpringboot2Application" />
       <module name="learn_springboot_2" />
+      <envs />
+    </configuration>
+    <configuration name="LearnSpringboot3Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.LearnSpringboot3Application" />
+      <module name="demo (2)" />
       <envs />
     </configuration>
     <configuration name="LearnSpringboot3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -508,19 +620,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot2Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.LearnSpringbootMoreApplication" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserPoTest.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PersonControllerTest.testPersonController" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CatchData" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot3Application" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.UserServiceTest.test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CatchData" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot3Application" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserTest.test" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot3Application (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot3Application" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CatchData" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PersonControllerTest.testPersonController" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserPoTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot3Application (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.test" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.LearnSpringboot3Application" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CatchData" />
       </list>
     </recent_temporary>
   </component>
@@ -552,31 +664,11 @@
       <workItem from="1535373827038" duration="358000" />
       <workItem from="1535427918106" duration="2362000" />
       <workItem from="1535594140975" duration="4014000" />
+      <workItem from="1535633254110" duration="4816000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonControllerTest_testPersonController - 2018.08.13 at 10h 59m 13s.xml">
-      <configuration name="PersonControllerTest.testPersonController" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserPoTest_test - 2018.08.10 at 16h 29m 34s.xml">
-      <configuration name="UserPoTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserPoTest_test - 2018.08.10 at 16h 29m 56s.xml">
-      <configuration name="UserPoTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserPoTest_test - 2018.08.10 at 16h 30m 12s.xml">
-      <configuration name="UserPoTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserPoTest_test - 2018.08.13 at 10h 03m 30s.xml">
-      <configuration name="UserPoTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserPoTest_test - 2018.08.13 at 10h 03m 47s.xml">
-      <configuration name="UserPoTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserPoTest_test - 2018.08.13 at 10h 05m 58s.xml">
-      <configuration name="UserPoTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserPoTest_test - 2018.08.13 at 10h 06m 24s.xml">
       <configuration name="UserPoTest.test" configurationId="JUnit" />
     </history-entry>
@@ -586,12 +678,33 @@
     <history-entry file="UserServiceTest_test - 2018.08.30 at 10h 19m 23s.xml">
       <configuration name="UserServiceTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 21h 16m 06s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 21h 27m 59s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 21h 29m 08s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 21h 52m 37s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 21h 57m 08s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 22h 01m 22s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.08.30 at 22h 07m 04s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45087000" />
+    <option name="totallyTimeSpent" value="49903000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -610,12 +723,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060373217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52494246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22851562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -623,7 +737,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -672,30 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/Swagger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_springboot_2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/Swagger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn_springboot_2/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -901,20 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/domain/PersonPo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/domain/UserPo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -935,7 +1010,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="351">
             <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -951,14 +1025,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/tools/maven/apache-maven-3.5.4/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="157" column="8" lean-forward="true" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/tools/maven/apache-maven-3.5.4/conf/settings.xml" />
     <entry file="uml://MAVEN/com.example:learn_springboot_1:0.0.1-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1046,9 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,14 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1088,58 +1144,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#646#647#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#840#841#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <marker date="1535595231362" expanded="true" signature="452:492" ph="insert into USER... " />
-            <marker date="1535595231362" expanded="true" signature="601:632" ph="delete from USER... " />
-            <marker date="1535595231362" expanded="true" signature="742:767" ph="select count... USER" />
-            <marker date="1535595231362" expanded="true" signature="871:887" ph="delete from USER... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/test/java/com/example/demo/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="32" column="76" lean-forward="false" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_springboot_3/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="717">
-            <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <first_editor relative-caret-position="438">
+            <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
             <folding>
-              <marker date="1535598555243" expanded="true" signature="311:432" ph="..." />
+              <marker date="1535635664200" expanded="true" signature="311:432" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/test/java/com/example/demo/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_springboot_2/src/main/java/com/example/demo/domain/PersonPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learn_springboot_3/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="568">
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/test/java/com/example/demo/dao/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_springboot_3/src/main/java/com/example/demo/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
