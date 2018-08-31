@@ -121,3 +121,88 @@ spring.jpa.properties.hibernate.hbm2ddl.auto是hibernate的配置属性，其主
 
 User.java
 
+# 整合EhCache
+
+## 添加依赖
+
+```pom
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-cache</artifactId>
+</dependency>
+```
+
+## 添加注解
+
+- 在主类中添加@EnableCaching注解
+- 在数据访问接口中，增加缓存配置注解：UserRepository 
+
+## 配置修改
+```properties
+
+spring.jpa.properties.hibernate.show_sql=true
+#开启hibernate对sql语句的打印
+
+```
+
+## 测试类
+
+EhCacheTest.java
+
+## 添加EhCache.xml
+
+在src/main/resources目录下创建：ehcache.xml
+```xml
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+    <cache name="users"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+
+</ehcache>
+```
+
+在pom.xml中加入
+```pom
+<dependency>
+    <groupId>net.sf.ehcache</groupId>
+    <artifactId>ehcache</artifactId>
+</dependency>
+```
+
+指定EhCache文件
+
+```properties
+
+spring.cache.ehcache.config=classpath:config/another-config.xml
+
+```
+
+# 整合redis
+
+##  添加依赖
+
+```pom
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-redis</artifactId>
+</dependency>
+```
+
+##添加配置
+```properties
+
+spring.redis.host=localhost
+spring.redis.port=6379
+spring.redis.pool.max-idle=8
+spring.redis.pool.min-idle=0
+spring.redis.pool.max-active=8
+spring.redis.pool.max-wait=-1
+
+```
+
+
+
+

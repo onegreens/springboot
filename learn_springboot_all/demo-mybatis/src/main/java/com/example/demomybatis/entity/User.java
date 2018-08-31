@@ -1,25 +1,9 @@
-package com.example.demo.entity;
+package com.example.demomybatis.entity;
 
-import javax.persistence.*;
-
-@Entity
 public class User {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(nullable = false)
     private String name;
-    @Column(nullable = false)
     private Integer age;
-
-    public User() {
-    }
-
-    public User(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
 
     public Long getId() {
         return id;
