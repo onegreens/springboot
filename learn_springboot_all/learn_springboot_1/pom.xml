@@ -6,7 +6,7 @@
     <groupId>com.example</groupId>
     <artifactId>learn_springboot_1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>learn_springboot_more</name>
     <description>Demo project for Spring Boot</description>
@@ -22,9 +22,24 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <start-class>com.example.learn_springboot_more.LearnSpringbootMoreApplication</start-class>
+
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <!-- marked the embedded servlet container as provided -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
         <dependency><!-- 该依赖必加，里面有sping对schedule的支持 -->
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
@@ -63,6 +78,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>learnSpringBoot</finalName>
     </build>
 
 
